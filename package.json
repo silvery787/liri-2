@@ -1,0 +1,28 @@
+{
+  "name": "liribot",
+  "version": "1.0.0",
+  "description": "LIRI is a Language Interpretation and Recognition Interface.",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silvery787/LIRIbot.git"
+  },
+  "keywords": [
+    "liri"
+  ],
+  "author": "Victoria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silvery787/LIRIbot/issues"
+  },
+  "homepage": "https://github.com/silvery787/LIRIbot#readme",
+  "dependencies": {
+    "inquirer": "^5.0.1",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  }
+}
