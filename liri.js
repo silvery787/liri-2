@@ -98,7 +98,8 @@ function getMovie(name){
 				log("=====  "+JSON.parse(body).Title+"  =====");
 				log("Released: "+ JSON.parse(body).Year);
 				log("IMDB Rating: "+ JSON.parse(body).imdbRating);
-				log("Rotten Tomatoes Rating: "+ JSON.parse(body).Ratings[1].Value);
+				if(JSON.parse(body).Ratings && JSON.parse(body).Ratings.length>2)
+					log("Rotten Tomatoes Rating: "+ JSON.parse(body).Ratings[1].Value);
 				log("Country: "+ JSON.parse(body).Country);
 				log("Language: "+ JSON.parse(body).Language);
 				log("Plot: "+ JSON.parse(body).Plot);
